@@ -1,0 +1,23 @@
+.dataDevelopStyle {
+
+    width: 80px;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.data5DevelopStyle {
+
+    width: 80px;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.hrFlip {
+
+    transition: transform .5s;
+    transform: rotate(90deg);
+    margin-right: -92px;
+
+}

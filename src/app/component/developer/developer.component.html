@@ -1,0 +1,22 @@
+  <div *ngFor="let develop of developers">
+
+    <div class="dataDevelopStyle" *ngFor="let dev of develop">
+      {{ dev }}
+      <hr class="hrFlip">
+    </div>
+
+    <div class="data5DevelopStyle">
+      {{ develop[5].name + ' ' + develop[5].logo + ' ' + develop[5].site }}
+    </div>
+
+    <hr>
+
+  </div>
+
+  <br>
+
+  <h2>SKILLS</h2>
+
+  <div *ngFor="let skill of skills">
+    <app-skill [skills]="skill"></app-skill>
+  </div>
